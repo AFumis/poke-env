@@ -2524,6 +2524,32 @@
         ],
         "weightkg": 215
     },
+    "chuggalong": {
+        "abilities": {
+            "0": "Armor Tail"
+        },
+        "baseStats": {
+            "atk": 43,
+            "def": 117,
+            "hp": 45,
+            "spa": 120,
+            "spd": 110,
+            "spe": 115
+        },
+        "color": "Black",
+        "eggGroups": [
+            "Undiscovered"
+        ],
+        "gen": 9,
+        "heightm": 6.2,
+        "name": "Chuggalong",
+        "num": -75,
+        "types": [
+            "Dragon",
+            "Poison"
+        ],
+        "weightkg": 201.6
+    },
     "clamperl": {
         "abilities": {
             "0": "Shell Armor"
@@ -10125,6 +10151,7 @@
         ],
         "gender": "M",
         "heightm": 0.5,
+        "mother": "nidoranf",
         "name": "Nidoran-M",
         "num": 32,
         "types": [
@@ -17480,6 +17507,7 @@
         ],
         "gender": "M",
         "heightm": 0.7,
+        "mother": "illumise",
         "name": "Volbeat",
         "num": 313,
         "types": [

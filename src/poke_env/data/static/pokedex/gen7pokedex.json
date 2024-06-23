@@ -5244,6 +5244,32 @@
         ],
         "weightkg": 215
     },
+    "chuggalong": {
+        "abilities": {
+            "0": "Armor Tail"
+        },
+        "baseStats": {
+            "atk": 43,
+            "def": 117,
+            "hp": 45,
+            "spa": 120,
+            "spd": 110,
+            "spe": 115
+        },
+        "color": "Black",
+        "eggGroups": [
+            "Undiscovered"
+        ],
+        "gen": 9,
+        "heightm": 6.2,
+        "name": "Chuggalong",
+        "num": -75,
+        "types": [
+            "Dragon",
+            "Poison"
+        ],
+        "weightkg": 201.6
+    },
     "cinccino": {
         "abilities": {
             "0": "Cute Charm",
@@ -11772,6 +11798,7 @@
         "eggGroups": [
             "Dragon"
         ],
+        "evoCondition": "during rain",
         "evoLevel": 50,
         "formeOrder": [
             "Goodra",
@@ -11808,6 +11835,7 @@
         "eggGroups": [
             "Dragon"
         ],
+        "evoCondition": "during rain",
         "evoLevel": 50,
         "forme": "Hisui",
         "heightm": 1.7,
@@ -20512,6 +20540,7 @@
         ],
         "gender": "M",
         "heightm": 0.5,
+        "mother": "nidoranf",
         "name": "Nidoran-M",
         "num": 32,
         "types": [
@@ -33920,6 +33949,7 @@
         ],
         "gender": "M",
         "heightm": 0.7,
+        "mother": "illumise",
         "name": "Volbeat",
         "num": 313,
         "types": [
