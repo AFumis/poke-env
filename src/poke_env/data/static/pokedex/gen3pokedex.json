@@ -2518,11 +2518,75 @@
         "heightm": 2.5,
         "name": "Chromera",
         "num": -60,
+        "tags": [
+            "Sub-Legendary"
+        ],
         "types": [
             "Dark",
             "Normal"
         ],
         "weightkg": 215
+    },
+    "chuggalong": {
+        "abilities": {
+            "0": "Armor Tail",
+            "1": "White Smoke"
+        },
+        "baseStats": {
+            "atk": 43,
+            "def": 117,
+            "hp": 45,
+            "spa": 120,
+            "spd": 110,
+            "spe": 108
+        },
+        "color": "Black",
+        "eggGroups": [
+            "Dragon",
+            "Mineral"
+        ],
+        "evoLevel": 46,
+        "gen": 9,
+        "heightm": 6.2,
+        "name": "Chuggalong",
+        "num": -75,
+        "prevo": "Draggalong",
+        "types": [
+            "Dragon",
+            "Poison"
+        ],
+        "weightkg": 201.6
+    },
+    "chuggon": {
+        "abilities": {
+            "0": "Shell Armor",
+            "1": "White Smoke"
+        },
+        "baseStats": {
+            "atk": 23,
+            "def": 77,
+            "hp": 30,
+            "spa": 55,
+            "spd": 65,
+            "spe": 30
+        },
+        "color": "Black",
+        "eggGroups": [
+            "Dragon",
+            "Mineral"
+        ],
+        "evos": [
+            "Draggalong"
+        ],
+        "gen": 9,
+        "heightm": 1,
+        "name": "Chuggon",
+        "num": -73,
+        "types": [
+            "Dragon",
+            "Poison"
+        ],
+        "weightkg": 50
     },
     "clamperl": {
         "abilities": {
@@ -3670,6 +3734,39 @@
             "Ground"
         ],
         "weightkg": 145
+    },
+    "draggalong": {
+        "abilities": {
+            "0": "Armor Tail",
+            "1": "White Smoke"
+        },
+        "baseStats": {
+            "atk": 33,
+            "def": 92,
+            "hp": 40,
+            "spa": 95,
+            "spd": 80,
+            "spe": 85
+        },
+        "color": "Black",
+        "eggGroups": [
+            "Dragon",
+            "Mineral"
+        ],
+        "evoLevel": 36,
+        "evos": [
+            "Chuggalong"
+        ],
+        "gen": 9,
+        "heightm": 2.5,
+        "name": "Draggalong",
+        "num": -74,
+        "prevo": "Chuggon",
+        "types": [
+            "Dragon",
+            "Poison"
+        ],
+        "weightkg": 110
     },
     "dragonair": {
         "abilities": {
@@ -10125,6 +10222,7 @@
         ],
         "gender": "M",
         "heightm": 0.5,
+        "mother": "nidoranf",
         "name": "Nidoran-M",
         "num": 32,
         "types": [
@@ -12920,6 +13018,75 @@
         ],
         "weightkg": 6.6
     },
+    "ramnarok": {
+        "abilities": {
+            "0": "No Guard"
+        },
+        "baseForme": "Dormant",
+        "baseStats": {
+            "atk": 63,
+            "def": 104,
+            "hp": 110,
+            "spa": 104,
+            "spd": 134,
+            "spe": 85
+        },
+        "color": "Red",
+        "eggGroups": [
+            "Undiscovered"
+        ],
+        "formeOrder": [
+            "Ramnarok",
+            "Ramnarok-Radiant"
+        ],
+        "gen": 9,
+        "gender": "N",
+        "heightm": 2.2,
+        "name": "Ramnarok",
+        "num": -78,
+        "otherFormes": [
+            "Ramnarok-Radiant"
+        ],
+        "tags": [
+            "Mythical"
+        ],
+        "types": [
+            "Fire",
+            "Steel"
+        ],
+        "weightkg": 250
+    },
+    "ramnarokradiant": {
+        "abilities": {
+            "0": "No Guard"
+        },
+        "baseSpecies": "Ramnarok",
+        "baseStats": {
+            "atk": 63,
+            "def": 85,
+            "hp": 110,
+            "spa": 134,
+            "spd": 54,
+            "spe": 154
+        },
+        "battleOnly": "Ramnarok",
+        "color": "White",
+        "eggGroups": [
+            "Undiscovered"
+        ],
+        "forme": "Radiant",
+        "gen": 9,
+        "gender": "N",
+        "heightm": 2.2,
+        "name": "Ramnarok-Radiant",
+        "num": -78,
+        "requiredMove": "Polar Flare",
+        "types": [
+            "Fire",
+            "Ice"
+        ],
+        "weightkg": 182
+    },
     "rapidash": {
         "abilities": {
             "0": "Run Away",
@@ -14429,6 +14596,33 @@
             "Dark"
         ],
         "weightkg": 59.6
+    },
+    "shox": {
+        "abilities": {
+            "0": "Electromorphosis",
+            "1": "Sticky Hold"
+        },
+        "baseStats": {
+            "atk": 55,
+            "def": 87,
+            "hp": 136,
+            "spa": 108,
+            "spd": 108,
+            "spe": 56
+        },
+        "color": "Brown",
+        "eggGroups": [
+            "Field"
+        ],
+        "gen": 9,
+        "heightm": 3,
+        "name": "Shox",
+        "num": -77,
+        "types": [
+            "Electric",
+            "Normal"
+        ],
+        "weightkg": 99.9
     },
     "shroomish": {
         "abilities": {
@@ -17480,6 +17674,7 @@
         ],
         "gender": "M",
         "heightm": 0.7,
+        "mother": "illumise",
         "name": "Volbeat",
         "num": 313,
         "types": [
